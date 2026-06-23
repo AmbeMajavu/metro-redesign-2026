@@ -1,5 +1,8 @@
+import FadeIn from "./FadeIn";
+
 export default function Stats() {
   return (
+    <FadeIn>
     <section className="bg-black text-white py-24">
 
       <div
@@ -65,5 +68,6 @@ export default function Stats() {
       </div>
 
     </section>
+    </FadeIn>
   );
 }

@@ -4,9 +4,13 @@ import {
   Network,
 } from "lucide-react";
 
+import FadeIn from "./FadeIn";
+
 export default function Services() {
   return (
+    <FadeIn>
     <section className="bg-white py-32">
+
 
       <div className="max-w-7xl mx-auto px-8">
 
@@ -91,6 +95,11 @@ export default function Services() {
 
       </div>
 
+      
+
     </section>
+    
+    </FadeIn>
+
   );
 }
