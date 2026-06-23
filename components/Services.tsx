@@ -5,14 +5,22 @@ import {
 } from "lucide-react";
 
 import FadeIn from "./FadeIn";
+import { services } from "../data/services";
 
 export default function Services() {
   return (
     <FadeIn>
     <section className="bg-white py-32">
 
-
-      <div className="max-w-7xl mx-auto px-8">
+      <div className="
+              border
+              rounded-2xl
+              p-8
+              hover:shadow-2xl
+              hover:-translate-y-2
+              transition
+              duration-300
+        ">
 
         <div className="text-center">
 
@@ -28,78 +36,40 @@ export default function Services() {
 
         <div className="grid md:grid-cols-3 gap-8 mt-16">
 
-          <div className="border
-                rounded-2xl
-                p-8
-                hover:shadow-2xl
-                hover:-translate-y-2
-                transition
-                duration-300">
+  {services.map((service) => (
 
-            <Server size={40} />
+    <div
+      key={service.title}
+      className="
+      border
+      rounded-2xl
+      p-8
+      hover:shadow-2xl
+      hover:-translate-y-2
+      transition
+      duration-300
+      "
+    >
 
-            <h3 className="text-2xl font-bold mt-6">
-              Infrastructure
-            </h3>
+      <h3 className="text-2xl font-bold">
 
-            <p className="mt-4 text-gray-600">
-              Enterprise hardware,
-              support and systems.
-            </p>
+        {service.title}
 
-          </div>
+      </h3>
 
-          <div className="border
-                rounded-2xl
-                p-8
-                hover:shadow-2xl
-                hover:-translate-y-2
-                transition
-                duration-300">
+      <p className="mt-4 text-gray-600">
 
-            <Network size={40} />
+        {service.description}
 
-            <h3 className="text-2xl font-bold mt-6">
-              Networking
-            </h3>
+      </p>
 
-            <p className="mt-4 text-gray-600">
-              Reliable business
-              connectivity solutions.
-            </p>
+    </div>
 
-          </div>
+  ))}
 
-          <div className="border
-                rounded-2xl
-                p-8
-                hover:shadow-2xl
-                hover:-translate-y-2
-                transition
-                duration-300">
-
-            <Shield size={40} />
-
-            <h3 className="text-2xl font-bold mt-6">
-              Cybersecurity
-            </h3>
-
-            <p className="mt-4 text-gray-600">
-              Protection and
-              secure infrastructure.
-            </p>
-
-          </div>
-
-        </div>
-
-      </div>
-
-      
+</div> </div>
 
     </section>
-    
     </FadeIn>
-
   );
 }
