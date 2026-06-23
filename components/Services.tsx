@@ -10,11 +10,11 @@ import { services } from "../data/services";
 export default function Services() {
   return (
     <FadeIn>
-    <section className="bg-white py-32">
+    <section className="bg-zinc-50 py-32">
 
       <div className="
               border
-              rounded-2xl
+              rounded-3xl
               p-8
               hover:shadow-2xl
               hover:-translate-y-2
@@ -42,7 +42,7 @@ export default function Services() {
       key={service.title}
       className="
       border
-      rounded-2xl
+      rounded-3xl
       p-8
       hover:shadow-2xl
       hover:-translate-y-2
