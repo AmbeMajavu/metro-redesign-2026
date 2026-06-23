@@ -31,7 +31,7 @@ export default function Hero() {
          Delivering infrastructure,
          networking, managed IT,
          security and enterprise
-         technology solutions across
+         gtechnology solutions across
          South Africa.
         </p>
 
