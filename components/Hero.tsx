@@ -16,8 +16,8 @@ export default function Hero() {
           max-w-4xl
           "
         >
-          Enterprise ICT Solutions
-          For Modern Business
+         Technology That Moves
+         Business Forward
         </h1>
 
         <p
@@ -28,9 +28,11 @@ export default function Hero() {
           max-w-2xl
           "
         >
-          Infrastructure, networking,
-          cybersecurity, managed IT,
-          software and enterprise support.
+         Delivering infrastructure,
+         networking, managed IT,
+         security and enterprise
+         technology solutions across
+         South Africa.
         </p>
 
         <div className="flex gap-4 mt-10">
