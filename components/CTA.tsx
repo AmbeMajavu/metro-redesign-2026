@@ -38,7 +38,7 @@ export default function CTA() {
         <button
           className="
           mt-10
-          bg-red-600
+          bg-blue-600
           px-8
           py-4
           rounded-xl

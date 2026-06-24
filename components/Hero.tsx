@@ -4,9 +4,6 @@ export default function Hero() {
 
       <div className="max-w-7xl mx-auto px-8 py-40">
 
-        <p className="text-red-500 font-medium">
-          METRO COMPUTER SERVICES
-        </p>
 
         <h1
           className="
@@ -39,7 +36,7 @@ export default function Hero() {
 
           <button
             className="
-            bg-red-600
+            bg-blue-600
             px-8
             py-4
             rounded-lg

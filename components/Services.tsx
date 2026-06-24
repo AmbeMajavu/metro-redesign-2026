@@ -24,7 +24,7 @@ export default function Services() {
 
         <div className="text-center">
 
-          <p className="text-red-600 font-semibold">
+          <p className="text-blue-600 font-semibold">
             OUR SERVICES
           </p>
 

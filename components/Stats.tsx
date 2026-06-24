@@ -19,7 +19,7 @@ export default function Stats() {
 
         <div>
 
-          <h2 className="text-5xl font-bold text-red-500">
+          <h2 className="text-5xl font-bold text-blue-500">
             15+
           </h2>
 
@@ -31,7 +31,7 @@ export default function Stats() {
 
         <div>
 
-          <h2 className="text-5xl font-bold text-red-500">
+          <h2 className="text-5xl font-bold text-blue-500">
             100+
           </h2>
 
@@ -43,7 +43,7 @@ export default function Stats() {
 
         <div>
 
-          <h2 className="text-5xl font-bold text-red-500">
+          <h2 className="text-5xl font-bold text-blue-500">
             24/7
           </h2>
 
@@ -55,7 +55,7 @@ export default function Stats() {
 
         <div>
 
-          <h2 className="text-5xl font-bold text-red-500">
+          <h2 className="text-5xl font-bold text-blue-500">
             SA
           </h2>
 

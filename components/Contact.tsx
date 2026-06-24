@@ -6,7 +6,7 @@ export default function Contact() {
 
         <div className="text-center">
 
-          <p className="text-red-600 font-semibold">
+          <p className="text-blue-600 font-semibold">
             CONTACT US
           </p>
 
@@ -76,7 +76,7 @@ export default function Contact() {
 
             <button
               className="
-              bg-red-600
+              bg-blue-600
               text-white
               px-8
               py-4

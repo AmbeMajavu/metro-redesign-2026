@@ -16,7 +16,7 @@ export default function About() {
 
         <div>
 
-          <p className="text-red-600 font-semibold">
+          <p className="text-blue-600 font-semibold">
 
             ABOUT METRO
 
@@ -53,7 +53,7 @@ export default function About() {
           h-[450px]
           rounded-3xl
           bg-gradient-to-br
-          from-red-600
+          from-blue-600
           to-black
           "
         />
