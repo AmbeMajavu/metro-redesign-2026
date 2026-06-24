@@ -28,11 +28,11 @@ export default function Navbar() {
           "
         >
 
-          <a href="#">Services</a>
+          <a href="#services">Services</a>
 
-          <a href="#">Solutions</a>
+          <a href="#about">About</a>
 
-          <a href="#">Contact</a>
+          <a href="#contact">Contact</a>
 
           <button
             className="

@@ -10,7 +10,7 @@ import { services } from "../data/services";
 export default function Services() {
   return (
     <FadeIn>
-    <section className="bg-zinc-50 py-32">
+    <section id="services" className="bg-zinc-50 py-32">
 
       <div className="
               border
